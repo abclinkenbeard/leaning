@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      canvas {
+        border: 1px black solid;
+        position: absolute;
+      }
+      img {
+        position: absolute;
+      }
+      body {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body
+    onkeydown="keyDown(event)"
+    onkeyup="keyUp(event)"
+    onmousemove="mouseMove(event)"
+    onmousedown="mouseDown(event)"
+    onmouseup="mouseUp(event)"
+    ontouchstart="touchStart(event)"
+    ontouchmove="touchMove(event)"
+    ontouchend="touchEnd(event)"
+  >
+    <canvas
+      id="ecanvas"
+      width="1350"
+      height="750"
+      style="background-color: grey"
+    ></canvas>
+    <canvas
+      id="canvas"
+      width="1350"
+      height="750"
+      style="background-color: transparent"
+    ></canvas>
+    <canvas
+      id="canvas1"
+      width="1350"
+      height="750"
+      style="background-color: transparent"
+    ></canvas>
+    <canvas
+      id="canvas2"
+      width="1350"
+      height="750"
+      style="background-color: transparent"
+    ></canvas>
+    <canvas
+      id="canvas3"
+      width="1350"
+      height="750"
+      style="background-color: transparent; opacity: 0.5"
+    ></canvas>
+    <canvas
+      id="canvas4"
+      width="1350"
+      height="750"
+      style="background-color: transparent"
+    ></canvas>
+    <!--<script src="events.js"></script>
+    <script src="functions.js"></script>
+    <script src="draw.js"></script>
+    <script src="learnin.js"></script>-->
+  </body>
+</html>
